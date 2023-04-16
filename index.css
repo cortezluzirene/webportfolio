@@ -9,17 +9,18 @@
 body {
 	font-family: "Poppins" !important;
 	background-color: whitesmoke !important;
+	padding-top: 60px !important;
 }
 
 
 /* Navigation Bar Start */
 .navbar {
 	background-color: whitesmoke !important;
+	top: 0;
 }
 
 .scrolled {
 	background-color: ghostwhite;
-	transition: 0.4s;
 }
 
 .navbar-brand {
@@ -163,12 +164,8 @@ body {
 	box-shadow: 0.3rem 0.3rem black;
 	border: 1px solid black;
 	font-weight: 600;
-}
-
-#about-title {
 	padding: 1rem;
 	text-align: right;
-	margin-top: 2rem;
 	margin-bottom: 1rem;
 	font-size: 1.5rem;
 }
